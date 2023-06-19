@@ -9,6 +9,7 @@ import newBalanceScreen from './src/screens/newBalanceScreen';
 import essentialsScreen from './src/screens/essentialsScreen';
 import supremeScreen from './src/screens/supremeScreen';
 import sneakerLaundryScreen from './src/screens/sneakerLaundryScreen';
+import shopStreetwear from './src/screens/shopStreetwear';
 import homePage from './src/Homepage/homePage';
 import header from './src/Homepage/header';
 import Menu from './src/components/Menu/Menu';
@@ -27,6 +28,7 @@ const navigator = createStackNavigator(
     Essentials: essentialsScreen,
     Supreme: supremeScreen,
     SneakerLaundry: sneakerLaundryScreen,
+    Streetwear: shopStreetwear,
   },
   {
     initialRouteName: 'Home',
